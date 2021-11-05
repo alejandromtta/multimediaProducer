@@ -1,0 +1,206 @@
+/* header */
+#logo {
+    height: 40%;
+    width: 14%;
+    margin-top: 12%;
+    padding: 10px;
+}
+
+#principal {
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    color: rgb(27, 27, 27);
+}
+
+
+
+#barra {
+    background-color: #612768;
+
+    height: 12px;
+    width: 490px;
+    margin-top: -6%;
+}
+
+#subtitulo_principal {
+    margin-top: -0.10%;
+    font-size: 40px;
+}
+/* parte del about me */
+#secundario {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-attachment: fixed;
+    background-color: #28002B;
+    border: solid 1px black;
+    color: rgb(248, 248, 248);
+    font-family: 'Roboto', sans-serif;
+}
+
+#foto_principal {
+    background-color: black;
+    height: 490px;
+    width: 380px;
+    border: solid 12px white;
+    margin-top: 4%;
+    margin-bottom: 4%;
+
+}
+
+#div2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: flex-end;
+    margin-top: 4%;
+}
+
+#parrafo1 {
+    padding: 1px;
+}
+
+#nav {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #28002B;
+    height: 12px;
+    width: 300px;
+
+}
+
+#control_nav {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+#parrafo1 {
+    font-family: 'Open Sans Condensed', blood;
+    font-size: 25px;
+}
+
+#tparrafo {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*parte de los botones con imagenes*/
+#terceario {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', serif;
+    color: rgb(27, 27, 27);
+    font-size: 30px;
+
+}
+
+.partesd {
+    height: 190px;
+    width: 190px;
+    border: 2px solid #410146;
+    margin: 26px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+#trespartes,
+#trespartesdos {
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+#barrados {
+    background-color: #612768;
+    margin-top: -2.5%;
+    margin-bottom: 2%;
+    height: 12px;
+    width: 140px;
+
+}
+
+#elh {
+    color: rgb(75, 74, 74);
+    font-family: 'Open Sans Condensed', blood;
+    font-size: 22px;
+    margin-bottom: -0.5%;
+    margin-top: -0.5%;
+}
+/* Contacto */
+#cuaternario {
+    background: url('../img/fondo.png');
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    height: 500px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    background-attachment: fixed;
+    /* Resize the background image to cover the entire container */
+    color: rgb(246, 246, 246);
+    font-family: 'Heebo', blood;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+#parrafoCuaternario {
+    font-size: 22px;
+    font-style: oblique;
+    margin-bottom: -3%;
+}
+
+#tituloCuaternario {
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -2%;
+    font-style: oblique;
+}
+
+#botonContacto {
+    background-color: aliceblue;
+    padding: 22px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    border: none;
+    color: rgb(49, 49, 49);
+    width: 180px;
+    margin-top: -2%;
+    border-radius: 2px;
+}
+
+#botonContacto:hover {
+    background-color: rgb(107, 107, 107);
+    color: rgb(231, 231, 231);
+}
+
+#cuaternarioBold {
+    font-style: strong;
+}
+
+/* footer */
